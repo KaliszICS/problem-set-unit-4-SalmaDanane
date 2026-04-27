@@ -1,7 +1,7 @@
 /*
 
     Author: Salma Danane
-    File: Problem Set Unit 4 - High-Low Guessing Game
+    File: Problem Set Unit 4 - High - Low Guessing Game
     Date Created: April 17th, 2026
     Date Last Modified: April 27th, 2026
 
