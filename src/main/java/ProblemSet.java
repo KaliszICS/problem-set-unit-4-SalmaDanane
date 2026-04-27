@@ -20,9 +20,9 @@ public class MyClass {
       // My variables 
 	  
       int score = 0;   // users starting score (increases or remains the same based off of how many points the user scores)    
-      int rounds = 0;     // number of rounds the user wants to play 
-      int guess;         // guess the user inputs
-      int num;            // number user has to guess (this will become the random number)
+      int rounds = 0;  // number of rounds the user wants to play 
+      int guess;       // guess the user inputs
+      int num;         // number user has to guess (this will become the random number)
       
       System.out.println("Welcome to the High-Low Guessing Game!");
       System.out.print("Input your number of rounds to play: ");
@@ -61,14 +61,18 @@ public class MyClass {
     if (guess == 1 && num >= 11 && num <= 20) { // if they guess high and the random number is high
             System.out.println("You were correct.");
             score++; // adds one point to their score
+		
     } else if (guess == 2 && num >= 0 && num <= 9) { // if they guess low and the number is low
             System.out.println("You were correct.");
             score++; // adds to their point
+		
     } else if (num == 10 && guess == 3) {  // if they guess 3/even and the number is even
             System.out.println("You were correct.");
-		score++; // adds to their score
+		    score++; // adds to their score
+		
     } else { // if all their previous guesses were wrong
             System.out.println("You were incorrect."); 
+		
          }
         
          System.out.println("Current score: " + score); // displays score
