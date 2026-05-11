@@ -1,0 +1,11 @@
+K(30%): 95
+I(30%): 92
+C(10%): 100
+A(30%): 93
+88% of 90 - 79.2
+
+Good work Salma.
+Don't forget, input validation also means making sure that is an int before attempt to compare to other numbers.
+You don't need to check num <= 20 or num >= 0 since your random number can't be outside this range.
+Congratulations should only be if they get 50% or higher (you're such an optimist).
+Otherwise good work!

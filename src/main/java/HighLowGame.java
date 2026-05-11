@@ -10,7 +10,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class MyClass {
+public class HighLowGame {
     
   public static void main(String args[]) {
       
